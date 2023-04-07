@@ -1,2 +1,4 @@
 lightning_logs
 checkpoints
+model/__pycache__
+text_wiz_checkpoint.ckpt
