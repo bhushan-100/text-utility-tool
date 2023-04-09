@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --silver: #c0c0c0;
+  --blue: rgb(0, 121, 211);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.after-nav {
+  position: relative;
+  top: 12vh;
+}

@@ -2,3 +2,5 @@ lightning_logs
 checkpoints
 model/__pycache__
 text_wiz_checkpoint.ckpt
+client/node_modules
+__pycache__

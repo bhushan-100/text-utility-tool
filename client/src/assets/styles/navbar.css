@@ -1,0 +1,16 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 12vh;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+}

@@ -50,6 +50,13 @@ for _, row in train_df.iterrows():
     summary_token_count = len(TOKENIZER.encode(row['summaries']))
     summary_token_counts.append(summary_token_count)
 
+fig, (ax1, ax2) = plt.subplots(1, 2)
+sns.histplot(text_token_counts, ax=ax1)
+ax1.set_title("Text token counts")
+sns.histplot(summary_token_counts, ax=ax2)
+ax2.set_title("Summary token counts")
+plt.show()
+
 data_module = SummaryDataModule(train_df, test_df, TOKENIZER, BATCH_SIZE)
 data_module.setup()
 next(iter(data_module.train_dataloader().dataset))
