@@ -1,15 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
 * {
   box-sizing: border-box;
+  font-family: "Quicksand", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 :root {
   --silver: #c0c0c0;
-  --blue: rgb(0, 121, 211);
+  --gray: #f4f4f4;
+  --light-blue: #4e97d1;
+  --blue: #3e77b6;
+  --dark-blue: #093145;
+  --black: #373d3f;
+  --yellow: #efd469;
+  --white: #f2f3f4;
+  --green: #d1e7dd;
+  --red: #f8d7da;
+}
+
+h1,
+h2 {
+  margin: 0;
 }
 
 body {
   margin: 0;
   padding: 0;
+  background: url(../images/bg.png) var(--blue);
+
 }
 
 ul {
@@ -25,5 +45,23 @@ li {
 
 .after-nav {
   position: relative;
-  top: 12vh;
+  top: 8vh;
 }
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--silver);
+  border-radius: 10px;
+}
+
+/*
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+} */

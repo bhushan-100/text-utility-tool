@@ -4,7 +4,7 @@ import "../assets/styles/home.css";
 
 export default function Home() {
   return (
-    <div className="home after-nav">
+    <div className="home after-nav relative">
       <TextBox />
     </div>
   );

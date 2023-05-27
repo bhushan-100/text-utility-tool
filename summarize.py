@@ -37,4 +37,4 @@ def summarizeText(text):
         for gen_id in generated_ids
     ]
 
-    return "".join(preds)
+    return " ".join(preds)
